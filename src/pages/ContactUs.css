@@ -1,0 +1,166 @@
+.contact-us {
+  min-height: calc(100vh - 200px);
+  padding: 3rem 0;
+  background: #f0f4f8;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-header h1 {
+  font-size: 3rem;
+  color: #1e293b;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #00d4aa 0%, #00a8cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contact-header .subtitle {
+  font-size: 1.3rem;
+  color: #64748b;
+}
+
+.contact-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-section {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #00d4aa;
+  padding-bottom: 0.5rem;
+}
+
+.contact-section p {
+  color: #334155;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 2rem 2.5rem;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #1e293b;
+  transition: all 0.3s ease;
+  min-width: 150px;
+}
+
+.social-link:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.social-link.telegram:hover {
+  border-color: #0088cc;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+}
+
+.social-link.facebook:hover {
+  border-color: #1877f2;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+}
+
+.social-link.instagram:hover {
+  border-color: #e4405f;
+  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+}
+
+.social-icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  font-size: 3rem;
+}
+
+.social-link.telegram .social-icon {
+  color: #0088cc;
+}
+
+.social-link.facebook .social-icon {
+  color: #1877F2;
+}
+
+.social-link.instagram .social-icon {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.social-link span {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.info-item {
+  margin-bottom: 1.5rem;
+}
+
+.info-item strong {
+  display: block;
+  color: #1e293b;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-item p {
+  color: #64748b;
+  margin: 0.25rem 0;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .contact-header h1 {
+    font-size: 2rem;
+  }
+
+  .contact-section {
+    padding: 1.5rem;
+  }
+
+  .contact-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .social-links {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .social-link {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
